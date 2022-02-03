@@ -1,0 +1,312 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fbfbfb;
+  font-family: "Poppins", sans-serif;
+  background: #121212;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.btn {
+  background: #0975e8;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#12218f), to(#0975e8));
+  background: linear-gradient(to right, #12218f, #0975e8);
+  padding: 8px 30px;
+  border-radius: 10px;
+}
+
+section {
+  padding: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .flex > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+section .flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.heading h2 {
+  font-size: 28px;
+}
+
+.heading span {
+  display: inline-block;
+  height: 2px;
+  width: 40px;
+  margin: 0 20px;
+  background-color: white;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 2;
+  color: #d3d3d3;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.header {
+  background: #151515;
+  height: 70px;
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header .logo {
+  font-size: 30px;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header nav li {
+  padding: 0 20px;
+}
+
+.home {
+  min-height: calc(100vh - 60px);
+}
+
+.home .info p {
+  font-size: 15px;
+}
+
+.home .info h1 {
+  font-size: 40px;
+}
+
+.home .info h1 span {
+  font-size: 50px;
+}
+
+.home .info .form {
+  margin-top: 30px;
+}
+
+.home .info .form input {
+  width: 300px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: #212121;
+  color: #686868;
+  display: block;
+  border: none;
+  margin: 20px 0;
+}
+
+.about .info {
+  text-align: center;
+  max-width: 90%;
+}
+
+.about .info p {
+  margin-bottom: 20px;
+}
+
+.sponsers .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sponsers .images img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.team .team-grid,
+.committee .team-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.team .team-grid .card,
+.committee .team-grid .card {
+  background: #222222;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+
+.team .team-grid .card img,
+.committee .team-grid .card img {
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team .team-grid .card h6,
+.committee .team-grid .card h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.team .team-grid .card span,
+.committee .team-grid .card span {
+  color: grey;
+  font-size: 13px;
+}
+
+.committee .team-grid .card {
+  padding: 30px 20px;
+}
+
+.committee .team-grid .card img {
+  width: 140px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px;
+}
+
+.fee .plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fee .plan {
+  background: #222222;
+  border-radius: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 20px;
+  height: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.fee .plan .tag {
+  background: #1f3920;
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-size: 15px;
+}
+
+.fee .plan .price {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.fee .plan .price span {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.footer {
+  background: #222222;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
